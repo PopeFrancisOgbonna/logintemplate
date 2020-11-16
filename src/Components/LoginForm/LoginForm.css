@@ -76,10 +76,17 @@ span:hover{
         flex-wrap: wrap;
     }
     .logoDiv{
-        width: 100%;
+        width: 95%;
+    }
+    .logoDiv h1{
+        width: 90%;
+        font-size: 1.9em;
+    }
+    .addImage{
+        width: 85%;
     }
     .formDiv{
-        width: 100%;
+        width: 95%;
     }
 }
 .hide{

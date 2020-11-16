@@ -15,7 +15,7 @@ const LoginForm = () =>{
             <div className="logoDiv">
                 <h1>Manage Your Business Account</h1>
                 <p>Donec dictum nisl nec mi lacinia, sed maximus tellus eleifend. Proin molestie cursus sapien ac eleifend.</p>
-                <img src={image} alt="company logo"/>
+                <img className="addImage" src={image} alt="company logo"/>
             </div>
             <div className="formDiv">
                 <div className={loggedIn === true?'' : 'hide'}>
