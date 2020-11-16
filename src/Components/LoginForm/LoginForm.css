@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.loginContainer{
+    display: flex;
+}
+.logoDiv{
+    width: 40%;
+    padding: 10px;
+    margin: 20px;
+}
+.logoDiv h1{
+    width: 400px;
+    font-size: 2.8em;
+    text-align: left;
+}
+
+.formDiv{
+    width: 60%;
+    padding: 10px;
+    margin: 20px;
+    background: #ddd5d527;
+}
+form{
+    padding: 10px 10px  10px 0;
+}
+form div{
+    padding: 5px;
+}
+label{
+    font-size: 1.4em;
+}
+.inputData{
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    width: 70%;
+}
+.inputData:focus{
+    outline: none;
+}
+.inputDiv{
+    padding: 5px;
+    width: 75%;
+    border: 1px solid #000;
+}
+.icon{
+    width: 18px;
+    margin-right: 3px;
+}
+button{
+    padding: 5px;
+    color: #fff;
+    background: #f84032;
+    border-style: none;
+    width: 130px;
+    font-size: 1.5em;
+    text-transform:  uppercase;
+}
+button:hover{
+    cursor: pointer;
+}
+span{
+    color: #f84032;
+}
+span:hover{
+    cursor: pointer;
+}
+.terms{
+    margin: 15px 0;
+}
+@media screen and (max-width:810px){
+    .loginContainer{
+        flex-wrap: wrap;
+    }
+    .logoDiv{
+        width: 100%;
+    }
+    .formDiv{
+        width: 100%;
+    }
+}
+.hide{
+    display: none;
+}
